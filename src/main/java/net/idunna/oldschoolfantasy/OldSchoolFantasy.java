@@ -1,6 +1,7 @@
 package net.idunna.oldschoolfantasy;
 
 import com.mojang.logging.LogUtils;
+import net.idunna.oldschoolfantasy.block.ModBlocks;
 import net.idunna.oldschoolfantasy.item.ModCreativeModTabs;
 import net.idunna.oldschoolfantasy.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -31,6 +32,7 @@ public class OldSchoolFantasy {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
