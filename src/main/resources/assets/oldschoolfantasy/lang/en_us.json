@@ -2,6 +2,7 @@
   "item.oldschoolfantasy.sapphire": "Sapphire",
   "item.oldschoolfantasy.raw_sapphire": "Raw Sapphire",
   "item.oldschoolfantasy.strawberry": "Strawberry",
+  "item.oldschoolfantasy.pine_cone": "Pine Cone",
 
   "block.oldschoolfantasy.sapphire_block": "Block of Sapphire",
   "block.oldschoolfantasy.raw_sapphire_block": "Block of Raw Sapphire",
@@ -10,6 +11,8 @@
   "block.oldschoolfantasy.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.oldschoolfantasy.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.oldschoolfantasy.end_stone_sapphire": "End Stone Sapphire",
+
+
 
   "creativetab.osf_tab": "Old School Fantasy"
 }
