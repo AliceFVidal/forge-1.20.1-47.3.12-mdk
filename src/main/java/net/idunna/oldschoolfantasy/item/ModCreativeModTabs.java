@@ -19,16 +19,19 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.osf_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                      //Itens
                         output.accept(ModItems.SAPPHIRE.get());
                         output.accept(ModItems.RAW_SAPPHIRE.get());
+                        output.accept(ModItems.STRAWBERRY.get());
 
+                      //Blocks
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
-
                         output.accept(ModBlocks.SAPPHIRE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
                         output.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
                         output.accept(ModBlocks.END_STONE_SAPPHIRE.get());
+
 
                     })
                     .build());
