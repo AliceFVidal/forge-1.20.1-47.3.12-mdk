@@ -2,6 +2,7 @@ package net.idunna.oldschoolfantasy.item;
 
 import net.idunna.oldschoolfantasy.OldSchoolFantasy;
 import net.idunna.oldschoolfantasy.item.custom.FuelItem;
+import net.idunna.oldschoolfantasy.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -18,6 +19,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
+            () -> new MetalDetectorItem(new Item.Properties().durability(100)));
+
     //Exemplo de um item comestível (.food)
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
