@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "oldschoolfantasy:block/end_stone_sapphire"
-  }
-}
